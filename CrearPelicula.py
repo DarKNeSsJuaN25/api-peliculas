@@ -1,7 +1,6 @@
 import boto3
 import uuid
 import os
-#hola
 def lambda_handler(event, context):
     # Entrada (json)
     print(event) # Log json en CloudWatch
